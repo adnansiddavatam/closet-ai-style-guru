@@ -62,12 +62,14 @@ export default {
 					foreground: 'hsl(var(--coral-foreground))',
 					50: 'hsl(14 91% 96%)',
 					100: 'hsl(14 91% 91%)',
+					500: 'hsl(14 91% 71%)',
 					600: 'hsl(14 91% 61%)',
 				},
 				purple: {
 					50: 'hsl(262 83% 96%)',
 					100: 'hsl(262 83% 91%)',
-					600: 'hsl(262 83% 58%)',
+					500: 'hsl(262 83% 58%)',
+					600: 'hsl(262 83% 48%)',
 				}
 			},
 			borderRadius: {
