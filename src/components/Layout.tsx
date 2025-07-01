@@ -60,8 +60,12 @@ const Layout = ({ children }: LayoutProps) => {
                   }`
                 }
               >
-                <Icon size={22} className="mb-1" strokeWidth={isActive ? 2.5 : 2} />
-                <span className="text-xs font-semibold">{label}</span>
+                {({ isActive }) => (
+                  <>
+                    <Icon size={22} className="mb-1" strokeWidth={isActive ? 2.5 : 2} />
+                    <span className="text-xs font-semibold">{label}</span>
+                  </>
+                )}
               </NavLink>
             ))}
           </div>
